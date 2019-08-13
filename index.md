@@ -82,6 +82,23 @@ var fun = function lang(l) {
 
 [Link to our dataset](./another-page.html).
 
+@article{DBLP:journals/corr/abs-1708-01348,
+  author    = {Bowei Chen and
+               JingMin Huang and
+               Yufei Huang and
+               Stefanos D. Kollias and
+               Shigang Yue},
+  title     = {Posted price programmatic guarantee in display advertising},
+  journal   = {CoRR},
+  volume    = {abs/1708.01348},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1708.01348},
+  archivePrefix = {arXiv},
+  eprint    = {1708.01348},
+  timestamp = {Mon, 13 Aug 2018 16:47:04 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1708-01348},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 
 <dl>
 <dt>Name</dt>
