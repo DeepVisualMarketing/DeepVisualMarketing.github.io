@@ -81,6 +81,9 @@ var fun = function lang(l) {
 ### Definition lists can be used with HTML syntax.
 
 [Link to our dataset](./another-page.html).
+
+Please use the cite the following paper if you used our datasets
+
 ```
 @article{DBLP:journals/corr/abs-1708-01348,
   author    = {Bowei Chen and
@@ -104,20 +107,8 @@ var fun = function lang(l) {
 <dl>
 <dt>Name</dt>
 <dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
 </dl>
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
 
-```
-The final element.
-```
 
 
