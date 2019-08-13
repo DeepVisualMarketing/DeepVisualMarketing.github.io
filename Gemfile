@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
-gem 'nokogiri'
-gem 'rack', '~>1.1'
-gem 'rspec', :require => 'spec'
 
+gem "github-pages", '197', group: :jekyll_plugins
+
+# enable tzinfo-data for local build
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'jekyll-paginate'
