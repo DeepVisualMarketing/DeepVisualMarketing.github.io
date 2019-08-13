@@ -81,7 +81,7 @@ var fun = function lang(l) {
 ### Definition lists can be used with HTML syntax.
 
 [Link to our dataset](./another-page.html).
-
+```
 @article{DBLP:journals/corr/abs-1708-01348,
   author    = {Bowei Chen and
                JingMin Huang and
@@ -99,6 +99,7 @@ var fun = function lang(l) {
   biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1708-01348},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+```
 
 <dl>
 <dt>Name</dt>
