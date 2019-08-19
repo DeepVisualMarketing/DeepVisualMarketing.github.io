@@ -7,6 +7,10 @@ layout: default
 
 A dataset contains 1.4 million car images + various car features
 
+[Link to data tables](./another-page.html).
+
+[Link to car images](./another-page.html).
+
 
 ## Data tables
 
@@ -29,6 +33,8 @@ Please use the cite the following paper if you used our datasets
   title     = {Deep visual Marketing: a car dataset for commerce researchers},
 }>
 ```
+
+
 
 
 
