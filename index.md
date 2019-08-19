@@ -21,9 +21,9 @@ Please use the cite the following paper if you used our datasets
 
 There car images are store with the hierachical structure: "**Brand-Model-Year-Colour**"
 
-You can apply the _Image Table_ to select car images from specific viewpoints.
-
 ![Viewpoints](https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/viewpoints_small.png)
+
+You can apply the _Image Table_ to select car images from specific viewpoints.
 
 [Link to car images](https://www.dropbox.com/sh/lf53rml5p4n51l2/AABa5M95ZlZwq0hmCXWpBBv8a?dl=0).
 
