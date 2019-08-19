@@ -19,7 +19,7 @@ Please use the cite the following paper if you used our datasets
 
 ### Car Images
 
-![Viewpoints](https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/viewpoints.png)
+![Viewpoints](https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/viewpoints_small.png)
 
 ### Data Tables
 
