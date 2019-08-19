@@ -1,7 +1,7 @@
 <img src="https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/uni_glasgow_logo.png?raw=true" width="600" >
 
 
-## DVM dataset
+
 
 
 
@@ -15,7 +15,7 @@ Please use the cite the following paper if you use our datasets
 }
 ```
 
-### Car Images
+## Car Images
 There car images are store with the hierachical structure: "**Brand-Model-Year-Colour**"
 ![Viewpoints](https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/viewpointsl.png?raw=true)
 
@@ -23,7 +23,7 @@ You can apply the _Image Table_ to select car images with specific viewpoints.
 
 [_Link to car images (Note. We are still uploading images as we get more than a million)_](https://www.dropbox.com/sh/b4jvpy0bf9s65x6/AAAhfQ_yDW6Y_Wu--90Vap6Ha?dl=0)
 
-### Data Tables
+## Data Tables
 
 *   **Basic Table** contains the car attributes such as model name, model ID and brand name. 
 *   **Sales Table** contains over ten years car sales data in UK/GB.
