@@ -30,6 +30,7 @@ Please use the cite the following paper if you used our datasets
 *   **Sales Table** contains over ten years car sales data in UK/GB.
 *   **Price Table** contains the entry-level (i.e. the cheapest trim price) new car prices accross years.
 *   **Trim Table** contains trim attributes like the selling price (trim level), engine type and engine size.
+*   **Ad Table** includes the information of more than 0.25 million used car ads.
 *   **Image Table** contains car images attributes like colour, viewpoint. 
 
 
