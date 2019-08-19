@@ -18,7 +18,8 @@ Please use the cite the following paper if you used our datasets
 ```
 
 ### Car Images
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+![Viewpoints](https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/viewpoints.png)
 
 ### Data Tables
 
