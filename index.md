@@ -12,11 +12,11 @@ Out dataset contains 1.4 million car images + various car features
 
 ### Car features are stored in 6 tables
 
-*   \<Basic Table\> contains the car attributes such as model name, model ID and brand name. 
-*   <Sales Table> contains over ten years car sales data in UK/GB.
-*   <Price Table> contains the entry-level (i.e. the cheapest trim price) new car prices accross years.
-*   <Trim Table> contains trim attributes like the selling price (trim level), engine type and engine size.
-*   <Image Table> contains car images attributes like colour, viewpoint. Currently, it includes information of 1,430,096 car images, while expansions of this table are applicable in the future.
+*   **Basic Table** contains the car attributes such as model name, model ID and brand name. 
+*   **Sales Table** contains over ten years car sales data in UK/GB.
+*   **Price Table** contains the entry-level (i.e. the cheapest trim price) new car prices accross years.
+*   **Trim Table** contains trim attributes like the selling price (trim level), engine type and engine size.
+*   **Image Table** contains car images attributes like colour, viewpoint. Currently, it includes information of 1,430,096 car images, while expansions of this table are applicable in the future.
 
 
 Please use the cite the following paper if you used our datasets
