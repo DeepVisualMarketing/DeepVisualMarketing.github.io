@@ -9,7 +9,7 @@ Our automobile dataset contains 1.4 million car images + various car features
 
 [Link to car images](./another-page.html).
 
-
+Please use the cite the following paper if you used our datasets
 ```
 <@article{,
   author    = {JingMin Huang and
@@ -23,6 +23,8 @@ Our automobile dataset contains 1.4 million car images + various car features
 
 
 
+
+
 ### Data tables
 
 *   **Basic Table** contains the car attributes such as model name, model ID and brand name. 
@@ -32,7 +34,7 @@ Our automobile dataset contains 1.4 million car images + various car features
 *   **Image Table** contains car images attributes like colour, viewpoint. 
 
 
-Please use the cite the following paper if you used our datasets
+
 
 
 
