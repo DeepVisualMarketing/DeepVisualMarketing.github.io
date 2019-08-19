@@ -5,9 +5,9 @@ layout: default
 
 ## This website is still under construction!!!
 
-[Link to data tables](./another-page.html).
+[Link to data tables](https://www.dropbox.com/sh/lf53rml5p4n51l2/AABa5M95ZlZwq0hmCXWpBBv8a?dl=0).
 
-[Link to car images](./another-page.html).
+[Link to car images](https://www.dropbox.com/sh/lf53rml5p4n51l2/AABa5M95ZlZwq0hmCXWpBBv8a?dl=0).
 
 Please use the cite the following paper if you used our datasets
 ```
