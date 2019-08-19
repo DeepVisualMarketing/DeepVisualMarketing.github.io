@@ -25,7 +25,7 @@ There car images are store with the hierachical structure: "**Brand-Model-Year-C
 
 You can apply the _Image Table_ to select car images with specific viewpoints.
 
-[Link to car images](https://www.dropbox.com/sh/lf53rml5p4n51l2/AABa5M95ZlZwq0hmCXWpBBv8a?dl=0).
+[Link to car images](https://www.dropbox.com/sh/lf53rml5p4n51l2/AABa5M95ZlZwq0hmCXWpBBv8a?dl=0)
 
 ### Data Tables
 
