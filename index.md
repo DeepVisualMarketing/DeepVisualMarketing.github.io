@@ -9,7 +9,7 @@ layout: default
 
 
 
-Please use the cite the following paper if you used our datasets
+Please use the cite the following paper if you use our datasets
 ```
 @article{Jingmin_DVM_2019,
   author    = {JingMin Huang and Bowei Chen and Shigang Yue and Iadh Ounis},
