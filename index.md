@@ -3,8 +3,6 @@
 ---
 layout: default
 ---
-
-![](https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/uni_glasgow_logo.png?raw=true=100x100)
 ## DVM dataset
 
 
