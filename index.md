@@ -1,8 +1,6 @@
 <img src="https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/uni_glasgow_logo.png?raw=true" width="600" >
 
----
-layout: default
----
+
 ## DVM dataset
 
 
