@@ -5,9 +5,9 @@ layout: default
 
 ## This website is still under construction!!!
 
-[Link to data tables](https://www.dropbox.com/sh/lf53rml5p4n51l2/AABa5M95ZlZwq0hmCXWpBBv8a?dl=0).
 
-[Link to car images](https://www.dropbox.com/sh/lf53rml5p4n51l2/AABa5M95ZlZwq0hmCXWpBBv8a?dl=0).
+
+
 
 Please use the cite the following paper if you used our datasets
 ```
@@ -19,7 +19,13 @@ Please use the cite the following paper if you used our datasets
 
 ### Car Images
 
+There car images are store with the hierachical structure: "**Brand-Model-Year-Colour**"
+
+You can apply the _Image Table_ to select car images from specific viewpoints.
+
 ![Viewpoints](https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/viewpoints_small.png)
+
+[Link to car images](https://www.dropbox.com/sh/lf53rml5p4n51l2/AABa5M95ZlZwq0hmCXWpBBv8a?dl=0).
 
 ### Data Tables
 
@@ -29,6 +35,8 @@ Please use the cite the following paper if you used our datasets
 *   **Trim Table** contains trim attributes like the selling price (trim level), engine type and engine size.
 *   **Ad Table** includes the information of more than 0.25 million used car ads.
 *   **Image Table** contains car images attributes like colour, viewpoint. 
+
+[Link to data tables](https://www.dropbox.com/sh/lf53rml5p4n51l2/AABa5M95ZlZwq0hmCXWpBBv8a?dl=0).
 
 
 
