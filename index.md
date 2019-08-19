@@ -11,16 +11,19 @@ layout: default
 
 Please use the cite the following paper if you used our datasets
 ```
-<@article{,
-  author    = {JingMin Huang and
-               Bowei Chen and
-               Shigang Yue and
-               Iadh Ounis},
-  title     = {Deep visual Marketing: a car dataset for commerce researchers},
-}>
+@article{Jingmin_DVM_2019,
+  author    = {JingMin Huang and Bowei Chen and Shigang Yue and Iadh Ounis},
+  title     = {Deep visual Marketing: a car dataset for commerce researchers}
+}
 ```
 
-
+@inproceedings{KrauseStarkDengFei-Fei_3DRR2013,
+  title = {3D Object Representations for Fine-Grained Categorization},
+  booktitle = {4th International IEEE Workshop on  3D Representation and Recognition (3dRR-13)},
+  year = {2013},
+  address = {Sydney, Australia},
+  author = {Jonathan Krause and Michael Stark and Jia Deng and Li Fei-Fei}
+}
 
 
 
