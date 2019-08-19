@@ -15,8 +15,7 @@ Please use the cite the following paper if you used our datasets
   author    = {JingMin Huang and
                Bowei Chen and
                Shigang Yue and
-               Iadh Ounis
-               Shigang Yue},
+               Iadh Ounis},
   title     = {Deep visual Marketing: a car dataset for commerce researchers},
 }>
 ```
