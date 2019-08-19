@@ -2,10 +2,10 @@
 layout: default
 ---
 
-# Out dataset contains 1.4 million car images + various car features
+# DVM car
 
 
-Out dataset contains 1.4 million car images + various car features
+A dataset contains 1.4 million car images + various car features
 
 
 
