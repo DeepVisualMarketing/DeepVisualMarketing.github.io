@@ -2,10 +2,8 @@
 layout: default
 ---
 
-# DVM car
 
-
-A dataset contains 1.4 million car images + various car features
+Our automobile dataset contains 1.4 million car images + various car features
 
 [Link to data tables](./another-page.html).
 
