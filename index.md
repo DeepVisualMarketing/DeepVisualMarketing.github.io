@@ -17,17 +17,10 @@ Please use the cite the following paper if you used our datasets
 }
 ```
 
-@inproceedings{KrauseStarkDengFei-Fei_3DRR2013,
-  title = {3D Object Representations for Fine-Grained Categorization},
-  booktitle = {4th International IEEE Workshop on  3D Representation and Recognition (3dRR-13)},
-  year = {2013},
-  address = {Sydney, Australia},
-  author = {Jonathan Krause and Michael Stark and Jia Deng and Li Fei-Fei}
-}
+### Car Images
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-
-
-### Data tables
+### Data Tables
 
 *   **Basic Table** contains the car attributes such as model name, model ID and brand name. 
 *   **Sales Table** contains over ten years car sales data in UK/GB.
