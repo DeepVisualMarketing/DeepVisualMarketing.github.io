@@ -3,7 +3,7 @@ layout: default
 ---
 
 ![](https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/uni_glasgow_logo.png?raw=true=100x100)
-<img src="https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/uni_glasgow_logo.png?raw=true" width="100" height="100">
+<img src="https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/uni_glasgow_logo.png?raw=true" width="100" >
 ## DVM dataset
 
 
