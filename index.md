@@ -2,72 +2,22 @@
 layout: default
 ---
 
-The first line
-Text can be **bold**, _italic_
+# Out dataset contains 1.4 million car images + various car features
+
+
+Out dataset contains 1.4 million car images + various car features
 
 
 
 
+### Car features are stored in 6 tables
 
-# Header 1
+*   Basic Table contains the car attributes such as model name, model ID and brand name. 
+*   Sales Table contains over ten years car sales data in UK/GB.
+*   Price Table contains the entry-level (i.e. the cheapest trim price) new car prices accross years.
+*   Trim Table contains trim attributes like the selling price (trim level), engine type and engine size.
+*   Image Table} contains car images attributes like colour, viewpoint. Currently, it includes information of 1,430,096 car images, while expansions of this table are applicable in the future.
 
-Test
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
 
 ### Small image
 
@@ -103,11 +53,6 @@ Please use the cite the following paper if you used our datasets
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-</dl>
 
 
 
