@@ -1,4 +1,4 @@
-<img src="https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/uni_glasgow_logo.png?raw=true" width="100" >
+<img src="https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/uni_glasgow_logo.png?raw=true" width="300" >
 
 ---
 layout: default
