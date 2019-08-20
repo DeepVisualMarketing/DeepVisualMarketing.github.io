@@ -6,7 +6,7 @@
 
 
 
-
+<!--
 Please use the cite the following paper if you use our datasets
 ```
 @article{Jingmin_DVM_2019,
@@ -14,6 +14,7 @@ Please use the cite the following paper if you use our datasets
   title     = {Deep visual Marketing: a car dataset for commerce researchers}
 }
 ```
+-->
 
 ## Car Images
 There car images are store with the hierachical structure: "**Brand-Model-Year-Colour**"
