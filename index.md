@@ -1,5 +1,5 @@
-<img src="https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/uni_glasgow_logo.png?raw=true" width="600" >
 
+<!--<img src="https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/uni_glasgow_logo.png?raw=true" width="600" >-->
 
 
 
@@ -17,7 +17,7 @@ Please use the cite the following paper if you use our datasets
 
 ## Car Images
 There car images are store with the hierachical structure: "**Brand-Model-Year-Colour**"
-![Viewpoints](https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/viewpointsl.png?raw=true)
+<!--![Viewpoints](https://github.com/DeepVisualMarketing/DeepVisualMarketing.github.io/blob/master/viewpointsl.png?raw=true)-->
 
 You can apply the _Image Table_ to select car images with specific viewpoints.
 
