@@ -33,7 +33,7 @@ You can apply the _Image Table_ to select car images with specific viewpoints.
 *   **Ad Table** includes the information of more than 0.25 million used car ads.
 *   **Image Table** contains car images attributes like colour, viewpoint. 
 
-[_Link to data tables_](https://www.dropbox.com/sh/lz2bzvdr1h5bp3k/AACRI9QS9ZISryHfdsFJzLSZa?dl=0).
+[_Link to data tables_](https://www.dropbox.com/sh/7tvsu7bi1wc8pv2/AACJLS_UhUju8Qf4O4mqPS7Pa?dl=0).
 
 
 
