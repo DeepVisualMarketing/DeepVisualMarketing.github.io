@@ -22,9 +22,9 @@ There car images are store with the hierachical structure: "**Brand-Model-Year-C
 
 You can apply the _Image Table_ to select car images with specific viewpoints.
 
-[_Images download link (zip format)_](https://www.dropbox.com/sh/z71binwv5w0s1qk/AAALN4QANF9fw9lhGS9iSLDba?dl=0)
+[_Images Download Link (Zip Format)_](https://www.dropbox.com/sh/z71binwv5w0s1qk/AAALN4QANF9fw9lhGS9iSLDba?dl=0)
 
-[_Examples of images_](https://www.dropbox.com/sh/b4jvpy0bf9s65x6/AAAhfQ_yDW6Y_Wu--90Vap6Ha?dl=0)
+[_Image Samples_](https://www.dropbox.com/sh/b4jvpy0bf9s65x6/AAAhfQ_yDW6Y_Wu--90Vap6Ha?dl=0)
 
 ## Data Tables
 
@@ -35,7 +35,7 @@ You can apply the _Image Table_ to select car images with specific viewpoints.
 *   **Ad Table** includes the information of more than 0.25 million used car ads.
 *   **Image Table** contains car images attributes like colour, viewpoint. 
 
-[_Link to data tables_](https://www.dropbox.com/sh/7tvsu7bi1wc8pv2/AACJLS_UhUju8Qf4O4mqPS7Pa?dl=0).
+[_Link to Data Tables_](https://www.dropbox.com/sh/7tvsu7bi1wc8pv2/AACJLS_UhUju8Qf4O4mqPS7Pa?dl=0).
 
 
 
