@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+  Designed by CSS Templates For Free and licensed under the Creative Commons Attribution 3.0
+  Website: http://www.csstemplatesforfree.org/
+  Author: Bowei.Chen@glasgow.ac.uk based on Template 0134
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>DVM Car Dataset: A Large-Scale Automobile Dataset for Visual Marketing</title>
+  <link rel="stylesheet" type="text/css" href="site-assets/screen.css">
+</head>
+
+<body>
+
+  <div id="outer-container">
+
+
+    <!--
+    <div id="header">
+      <div id="main-menu">
+        <ul>
+          <li class="first-item enabled-item">
+            <a href="https://deepvisualmarketing.github.io/">DVM Car Dataset</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    -->
+
+    <div id="inner-container">
+
+      <img id="boweichen" src="site-assets/images/UoG_Logo.jpg"
+        style="float:right;width:175px;margin:15px 15px 25px 15px">
+
+      <div id="column1">
+
+        <div id="content1">
+          <h2>DVM Car Dataset: A Large-Scale Automobile Dataset for Visual Marketing</h2>
+          <p>
+            Welcome to this webpage! We are building a large-scale automobile dataset that contains images of numerous
+            car models and the corresponding car specification and sales figures over more than 10 years period, with
+            the hope to better support and serve the
+            needs of researchers in visual marketing. Meanwhile, we discuss the process of designing and developing a
+            user-friendly dataset
+            from the perspective of data science. Our dataset primarily constitutes two sections: the image section and
+            the data table section.
+          </p>
+        </div>
+
+        <div id="content1">
+          <h3>Car Images</h3>
+          <p>
+            The image section contains 1.4 million car images, filtered and masked by computer programs. However,
+            unfortunately, some poor samples have also been retained in the current image set, and to resolve
+            this problem, we are currently performing manual filtering to weed these out. Till now, both the manually
+            checked and unchecked images are shared in the dataset. Researchers can download the ones they prefer. We organised
+            the car images under the categorization “brand–model–year–colour”. With every car image, a “pkl” file is also provided,
+            which currently only includes the background information regarding the image; however, further information might be keeping
+            updated.
+          </p>
+          <img src="site-assets/images/car_images.png" width="950" height="300" alt="">
+          <p>
+            As the above figures illustrate, car images were divided into eight categories regarding their viewpoints.
+            In many cases, background removal is required in business studies because researchers do not want the background to add any visual effects. For this reason, there are
+            two versions of each image in the dataset, one with and one without the background. This was achieved by applying the
+            pre-trained Mask RCNN model, through which the position of cars can be marked. Finally, due to the requirement of
+            data privacy, the car number plates had to be obscured. The program shared by Mask RCNN model was used to detect the position of the number
+            plate and then apply a blur effect.
+          </p>
+          <ul>
+            <li class="first-item">
+              <a href="https://www.dropbox.com/sh/z71binwv5w0s1qk/AAALN4QANF9fw9lhGS9iSLDba?dl=0">Full car images (zip
+                format)</a>
+            </li>
+            <li class="last-item">
+              <a href="https://www.dropbox.com/sh/b4jvpy0bf9s65x6/AAAhfQ_yDW6Y_Wu--90Vap6Ha?dl=0">Sample of car
+                images</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div id="content1">
+          <h3>Data Tables</h3>
+          <!--
+          <p>
+          BC: Jingmin, please add a short paragraph here to describe the tables.
+          </p>
+          -->
+          <ul class="links">
+            <li class="first-item">
+              <a href="https://www.dropbox.com/sh/g96sux4wrcst1b0/AACdu8QKwskrYXbh5KlIIR1va?dl=0">Basic table</a>
+              contains the car attributes such as model name, model ID and brand name.
+            </li>
+            <li>
+              <a href="https://www.dropbox.com/sh/g96sux4wrcst1b0/AACdu8QKwskrYXbh5KlIIR1va?dl=0">Sales table</a>
+              contains over ten years car sales data in UK/GB.
+            </li>
+            <li>
+              <a href="https://www.dropbox.com/sh/g96sux4wrcst1b0/AACdu8QKwskrYXbh5KlIIR1va?dl=0">Price table</a>
+              contains the entry-level (i.e. the cheapest trim price) new car prices accross years.
+            </li>
+            <li>
+              <a href="https://www.dropbox.com/sh/g96sux4wrcst1b0/AACdu8QKwskrYXbh5KlIIR1va?dl=0">Trim table</a>
+              contains trim attributes like the selling price (trim level), engine type and engine size.
+            </li>
+            <li>
+              <a href="https://www.dropbox.com/sh/g96sux4wrcst1b0/AACdu8QKwskrYXbh5KlIIR1va?dl=0">Ad table</a> includes
+              the information of more than 0.25 million used car ads.
+            </li>
+            <li class="last-item">
+              <a href="https://www.dropbox.com/sh/g96sux4wrcst1b0/AACdu8QKwskrYXbh5KlIIR1va?dl=0">Image table</a>
+              contains car images attributes like colour, viewpoint.
+            </li>
+          </ul>
+        </div>
+
+        <div id="content1">
+          <h3>Contact Information</h3>
+          <ul>
+            <li class="first-item">
+              Jingmin Huang: <a href="mailto:Jingmin.Huang@glasgow.ac.uk">Jingmin.Huang@glasgow.ac.uk</a>
+            </li>
+            <li class="last-item">
+              Bowei Chen: <a href="mailto:Bowei.Chen@glasgow.ac.uk">Bowei.Chen@glasgow.ac.uk</a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
