@@ -227,3 +227,9 @@ ul h4 {
 #site-credits a {
   color: #E0DFDF;
 }
+
+<style type="text/css">
+ .withbull {
+  list-style-type: disc;
+ }
+</style>
