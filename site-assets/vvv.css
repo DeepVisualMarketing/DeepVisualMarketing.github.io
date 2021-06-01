@@ -1,0 +1,19 @@
+@import url{'https://fonts.googleapis.com/css?family=Droid+Sans'};
+body
+{
+  background-color: #1D1D1D;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Droid Sans", sans-serif;
+}
+body:before 
+{
+  content: "";
+  position: fixed;
+  top: 0px;
+  left: 500%;
+  bottom: 0px;
+  transform: translateX(-50%);
+  width: 4px;
+  background-color: #fff;
+}

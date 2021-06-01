@@ -11,7 +11,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <title>DVM Car Dataset: A Large-Scale Dataset for Automotive Applications</title>
-  <link rel="stylesheet" type="text/css" href="site-assets/style.css">
+  <link rel="stylesheet" type="text/css" href="site-assets/screen.css">
   <style>
 img {
   display: block;
@@ -23,58 +23,78 @@ img {
 
 <body>
 
+  <div id="outer-container">
 
+
+    <!--
+    <div id="header">
+      <div id="main-menu">
+        <ul>
+          <li class="first-item enabled-item">
+            <a href="https://deepvisualmarketing.github.io/">DVM Car Dataset</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    -->
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="tm_block">
+					<h3>2019</h3>
+					<p>Building of the webpage</p>
+					<h4>January 2019</h4>
+				</div>
+			</li>
+			<li>
+				<div class="tm_block">
+					<h3>2018</h3>
+					<p>Start data collections</p>
+					<h4>January 2018</h4>
+				</div>
+			</li>
+	</div>
 		
     <div id="inner-container">
 
+      <img id="boweichen" src="site-assets/images/UoG_Logo.jpg"
+        style="float:right;width:175px;margin:15px 15px 25px 15px">
 
+      <div id="column1">
 
-        <div id="title_part">
-		      <img id="boweichen" src="site-assets/images/UoG_Logo.jpg"
-        style="float:right;width:175px;margin:0px 0px 25px 15px">
-          <h1 style="font-size:35px"> DVM Car Dataset: A Large-Scale Dataset for Automotive Applications</h1>
-        </div>
-		
-		
-		
-		
-		
-		
-		<div id="subtitle_part">
-		<p>
-            Welcome to this webpage!  <br />
-			We are building a large-scale automotive dataset named Deep Visual Marketing Car (in short <b>DVM-Car</b>) dataset. 
-            
+        <div id="content1">
+          <h2>DVM Car Dataset: A Large-Scale Dataset for Automotive Applications</h2>
+          
+          <p>
+            Welcome to this webpage! We are building a large-scale automotive dataset named Deep Visual Marketing Car (in short <b>DVM-Car</b>) dataset. 
+            DVM-Car dataset contains images of numerous car models and the corresponding car specification and sales figures over more than 10 years period, with the hope to better support and serve the needs of researchers in various fields.  
+            It primarily constitutes two sections: the <b>image</b> section and the <b>data table</b> section. 
+            The shared links are provided below.
           </p>
-		  </div>
-		 
+          
+      
 
-		DVM-Car dataset contains images of numerous car models and the corresponding car specification and sales figures over more than 10 years period, with the hope to better support and serve the needs of researchers in various fields.  
-        It primarily constitutes two sections: the <b>image</b> section and the <b>data table</b> section. 
-		<br />
-		
-				
-          <h3>Before using this dataset, please read the instruction:  <a href="site-assets/DVM_instrument.pdf"> DVM-Car Instruction (PDF)</a></p></h3> 
-		
-		
-
-       
-		
-		
-
-		
-		
-		
-		
-		<div class="section_head">
-          <h1><i>Part I. Car Images</i> </p></h1>
           
         </div>
-		
-		
-		<div id="image_part_content">
-		<img src="site-assets/images/car_images.png" width="950" height="300" alt="">
-         <p class="ex1">
+        
+        
+        
+        
+        <hr>
+        <p><br /></p>
+        
+        <h3>Dataset</h3>
+        <a href="site-assets/DVM_instrument.pdf"> Please Read: Usage Instruction (PDF)</a>
+        <p> <br /> </p>
+        
+        <div id="content1">
+          <h4><i>Part I. Car Images</i></h4>
+
+          
+          
+          <img src="site-assets/images/car_images.png" width="950" height="300" alt="">
+            
+            <p class="ex1">
               <withbull>
                 <li>1,430,096 images from the the UK market</li>
                 <li>From eight observation angles.  </li>
@@ -82,26 +102,34 @@ img {
                 <li>Number plates have been obscured. </li>
               </withbull>
             </p>
+          
 
+            
               <a href="https://www.dropbox.com/s/x82cvp5kexra339/resized_DVM.zip?dl=0">Download Link: Full car images (zip
                 format)</a>
-		</div>
-       
-        <div class="section_head">
-          <h1><i>Part II. Data Tables</i></h1>
-          
-           <!--
-          Usage instruction:<br>
-            <b>For image using</b>: Download and uncompress the ZIP file. For image selection, users can use two ways to locate target images: 1. use the  brand–model–year–colour storing structure to find car images from the target models; 2. use the Image Table to select the images from the target observation angle (e.g., front images).
-           Users can use the <i>PKL</i> files to eliminate the background from the provided images (a PKL file contains the shape of the appeared car in the corresponding image).
-          
-                <b>For table using</b>: Users might need the 'join' operation when using multiple tables, the tables can be joined via the 'Genmodel_ID' or the 'Adv_ID' attribute.
-                The unit of price-related attributes is the Great British Pound.
-                The unit of engine size in Trim Table is millilitre. 
-                The '-Y' and '-N' in the Image Table indicates manually confirmed results ('Y' means confirmed 'yes', 'N' means confirmed 'no'). -->
+          <p>
+            <br />
+           
+        
+           
+
+            
+            
+          </p>
+      
+          <ul>
+            
+          </ul>
         </div>
-		<img src="site-assets/images/car_attr.jpg" width="600px">
-             <p>            </p>
+
+        
+       
+        <div id="content_table">
+          <h4><i>Part II. Data Tables</i></h4>
+          <img src="site-assets/images/car_attr.jpg" width="600px">
+          <p>
+            
+            </p>
             <p class="ex1">
               <withbull>
                   <li><b>Basic table</b> contains the car attributes such as model name, model ID and brand name.</li>
@@ -120,63 +148,30 @@ img {
                 format)</a>
 
           <p> </p>
-		  
-		
-				<div class="section_head">
-          <h3>History of this website </p></h3>
+          
+          
+          
+          
+           <!--
+          Usage instruction:<br>
+            <b>For image using</b>: Download and uncompress the ZIP file. For image selection, users can use two ways to locate target images: 1. use the  brand–model–year–colour storing structure to find car images from the target models; 2. use the Image Table to select the images from the target observation angle (e.g., front images).
+           Users can use the <i>PKL</i> files to eliminate the background from the provided images (a PKL file contains the shape of the appeared car in the corresponding image).
+          
+                <b>For table using</b>: Users might need the 'join' operation when using multiple tables, the tables can be joined via the 'Genmodel_ID' or the 'Adv_ID' attribute.
+                The unit of price-related attributes is the Great British Pound.
+                The unit of engine size in Trim Table is millilitre. 
+                The '-Y' and '-N' in the Image Table indicates manually confirmed results ('Y' means confirmed 'yes', 'N' means confirmed 'no'). -->
+          
+           
+
         </div>
-		
-		<section id="timeline">
-		  <article>
-			<div class="inner">
-			  <span class="date">
-				<span class="month">Jun</span>
-				<span class="year">2018</span>
-			  </span>
-			  <h2>Creation of the website</h2>
-			  <p>Including small set of samples.</p>
-			</div>
-		  </article>
-		  <article>
-			<div class="inner">
-			  <span class="date">
-		
-				<span class="month">Feb</span>
-				<span class="year">2019</span>
-			  </span>
-			  <h2>Increase to million images.</h2>
-			  <p>The whole dataset include million of car images.</p>
-			</div>
-		  </article>
-		  <article>
-			<div class="inner">
-			  <span class="date">
-				<span class="month">Jan</span>
-				<span class="year">2020</span>
-			  </span>
-			  <h2>Improve Images</h2>
-			  <p>All the images sizes are unified and remove all their background.</p>
-			</div>
-		  </article>
-		  		  <article>
-			<div class="inner">
-			  <span class="date">
-				<span class="month">May</span>
-				<span class="year">2020</span>
-			  </span>
-			  <h2>DVM Verion 2</h2>
-			  <p>Now we unified the images sizes and remove all their background.</p>
-			</div>
-		  </article>
-		</section>
-		
         
+
 		
-		<div class="section_head">
-		<h1><i>Survey Study</i></h1>
-		</div>
-		
+        <p><br /></p> <hr><p><br /></p>
+        
         <div id="survey">
+        <h3>Survey Study</h3>
           
           <img src="site-assets/images/bipartite_words5.png" width="950" alt="">
           <p>
@@ -190,12 +185,11 @@ img {
         </div>
         
         
-        <div class="section_head">
-		<h1><i>Contact Information</i></h1>
-		</div>
+        <p><br /></p><hr><p><br /></p>
         
         
         <div id="content1">
+          <h3>Contact Information</h3>
           <ul>
             <li class="first-item">
               Jingmin Huang: <a href="mailto:2421107h@student.gla.ac.uk ">2421107h@student.gla.ac.uk </a>
@@ -208,6 +202,9 @@ img {
         </div>
 
 
+      </div>
+
+    </div>
   </div>
  
   <!--
