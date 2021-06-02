@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    DVM Car Dataset: A Large-Scale Dataset for Automotive Applications
+  </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="DVM Car Dataset: A Large-Scale Dataset for Automotive Applications">
+  <meta name="keywords" content="your keywords, separated by commas">
+  
+  <meta name="author" content="LastName FirstName">
+  
+  <link rel="canonical" href="">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://jeromelachaud.com/feed.xml">
+
+  <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ 1542 -->
+  <link rel="stylesheet" href="./Project 1_files/style.css">
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="./Project 1_files/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./Project 1_files/hjmstyle.css">
+  <link href="./Project 1_files/css" rel="stylesheet" type="text/css">
+  <link href="./Project 1_files/css(1)" rel="stylesheet" type="text/css">
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+<style id="tsbrowser_video_independent_player_style" type="text/css">
+      [tsbrowser_force_max_size] {
+        width: 100% !important;
+        height: 100% !important;
+        left: 0px !important;
+        top: 0px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        transform: none !important;
+      }
+      [tsbrowser_force_fixed] {
+        position: fixed !important;
+        z-index: 9999 !important;
+        background: black !important;
+      }
+      [tsbrowser_force_hidden] {
+        opacity: 0 !important;
+        z-index: 0 !important;
+      }
+      [tsbrowser_hide_scrollbar] {
+        overflow: hidden !important;
+      }
+      [tsbrowser_display_none] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+      [tsbrowser_force_show] {
+        display: black !important;
+        visibility: visible !important;
+        opacity: 0;
+      }
+	  </style></head>
+
+    <body id="page-top" class="index">
+       <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">DVM Car Dataset</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#partI">Part I</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#partII">Part II</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#history">History of this website</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#contact">Survey Study</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#contact">Contact Information</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="img-responsive" src="./Project 1_files/profile.png" alt="profile-pic">
+        <div class="intro-text">
+          <span class="name">Welcome to this webpage!</span>
+          <hr class="star-light">
+          <span class="skills">We are building a large-scale automotive dataset named Deep Visual Marketing Car (in short DVM-Car) dataset.
+DVM-Car dataset contains images of numerous car models and the corresponding car specification and sales figures over more than 10 years period, with the hope to better support and serve the needs of researchers in various fields. It primarily constitutes two sections: the image section and the data table section.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    
+    <!-- partI Grid Section -->
+    <section id="partI">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Part I. Car Images</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                
+                <div id="image_part_content">
+					<img src="./Project 1_files/car_images.png" width="950" height="300" alt="">
+					 <p class="ex1">
+						  <withbull>
+							<li>1,430,096 images from the the UK market</li>
+							<li>From eight observation angles.  </li>
+							<li>Covers 897 car models over the last 19 years.</li>
+							<li>Number plates have been obscured. </li>
+						  </withbull>
+						</p>
+				<a href="https://www.dropbox.com/s/x82cvp5kexra339/resized_DVM.zip?dl=0">Download Link: Full car images (zip
+                format)</a>
+				</div>
+                
+                
+            </div>
+        </div>
+    </section>
+     <!-- About Section -->
+    <section class="success" id="partII">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Part II. Data Tables</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+				<img src="./Project 1_files/car_attr.jpg" width="1000px">
+             <p>            </p>
+            <p class="ex1">
+              <withbull>
+                  <li><b>Basic table</b> contains the car attributes such as model name, model ID and brand name.</li>
+                <li><b>Sales table</b> contains over ten years car sales data in UK/GB.</li>
+                  <li><b>Price table</b> contains the entry-level (i.e. the cheapest trim price) new car prices accross years.</li>
+                <li><b>Trim table</b> contains trim attributes like the selling price (trim level), engine type and engine size.</li>
+                <li><b> Ad table</b> includes the information of more than 0.25 million used car ads. </li>
+                <li> <b>Image table</b> contains car images attributes like colour, viewpoint.</li>
+              </withbull>
+			                          <a href="https://www.dropbox.com/sh/g96sux4wrcst1b0/AACdu8QKwskrYXbh5KlIIR1va?dl=0">Download Link: Data tables (CSV
+                format)</a>
+            </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- Contact Section -->
+<section id="history">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>History of this website</h2>
+				<hr class="star-primary">
+			</div>
+		</div>
+		<div class="row">
+				<section id="timeline">
+			<article>
+			<div class="inner">
+			  <span class="date">
+				<span class="month">Jun</span>
+				<span class="year">2018</span>
+			  </span>
+			  <h2>Creation of the website</h2>
+			  <p>Including small set of samples.</p>
+			</div>
+		  </article>
+		  <article>
+			<div class="inner">
+			  <span class="date">
+		
+				<span class="month">Feb</span>
+				<span class="year">2019</span>
+			  </span>
+			  <h2>Increase to million images.</h2>
+			  <p>The whole dataset include million of car images.</p>
+			</div>
+		  </article>
+		  <article>
+			<div class="inner">
+			  <span class="date">
+				<span class="month">Jan</span>
+				<span class="year">2020</span>
+			  </span>
+			  <h2>Improve Images</h2>
+			  <p>All the images sizes are unified and remove all their background.</p>
+			</div>
+		  </article>
+		  <article>
+			<div class="inner">
+			  <span class="date">
+				<span class="month">May</span>
+				<span class="year">2020</span>
+			  </span>
+			  <h2>DVM Verion 2</h2>
+			  <p>Now we unified the images sizes and remove all their background.</p>
+			</div>
+		  </article>
+		  	</section>
+		</div>
+	</div>
+</section>
+
+    
+
+        <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>
+                            
+                                3481 Melrose Place <br>
+		                    
+                                Beverly Hills, CA 90210 <br>
+		                    
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            
+                            <li>
+                                <a href="http://twitter.com/jekyllrb" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="http://stackoverflow.com/questions/tagged/jekyll" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="http://bitbucket.org/jekyll" class="btn-social btn-outline"><i class="fa fa-fw fa-bitbucket"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="http://github.com/jekyll" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+		                    
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Credits</h3>
+                        <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright © Dr. Henry Jekyll 2020
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+     <!-- partI Modals 
+ 
+    <div class="partI-modal modal fade" id="partIModal-1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project 1</h2>
+                            <hr class="star-primary">
+                            <img src="./Project 1_files/cabin.png" class="img-responsive img-centered" alt="image-alt">
+                            
+                                <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com/">April 2014</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com/">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	 -->
+
+    <div class="partI-modal modal fade" id="partIModal-2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project 2</h2>
+                            <hr class="star-primary">
+                            <img src="./Project 1_files/cake.png" class="img-responsive img-centered" alt="image-alt">
+                            
+                                <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com/">April 2014</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com/">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partI-modal modal fade" id="partIModal-3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project 3</h2>
+                            <hr class="star-primary">
+                            <img src="./Project 1_files/circus.png" class="img-responsive img-centered" alt="image-alt">
+                            
+                                <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com/">April 2014</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com/">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partI-modal modal fade" id="partIModal-4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project 4</h2>
+                            <hr class="star-primary">
+                            <img src="./Project 1_files/game.png" class="img-responsive img-centered" alt="image-alt">
+                            
+                                <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com/">April 2014</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com/">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partI-modal modal fade" id="partIModal-6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project 6</h2>
+                            <hr class="star-primary">
+                            <img src="./Project 1_files/submarine.png" class="img-responsive img-centered" alt="image-alt">
+                            
+                                <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com/">April 2014</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com/">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partI-modal modal fade" id="partIModal-5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project 5</h2>
+                            <hr class="star-primary">
+                            <img src="./Project 1_files/safe.png" class="img-responsive img-centered" alt="image-alt">
+                            
+                                <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com/">April 2014</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com/">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="./Project 1_files/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./Project 1_files/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="./Project 1_files/jquery.easing.min.js"></script>
+    <script src="./Project 1_files/classie.js"></script>
+    <script src="./Project 1_files/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="./Project 1_files/jqBootstrapValidation.js"></script>
+    
+    <script src="./Project 1_files/contact_me_static.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./Project 1_files/freelancer.js"></script>
+
+    
+
+    
+</body></html>
