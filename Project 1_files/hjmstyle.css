@@ -30,7 +30,7 @@ html, body {
 
 section#timeline {
   width: 80%;
-  margin: 20px auto;
+  margin: 0px auto;
   position: relative;
 }
 section#timeline:before {  /* the crossing line */
@@ -38,7 +38,7 @@ section#timeline:before {  /* the crossing line */
   display: block;
   position: absolute;
   left: 49.75%;
-  top: 0;
+  top: 33px;
   margin: 0 0 0px -1px;
   width: 6px;
   height: 95%;
