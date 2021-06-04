@@ -37,12 +37,12 @@ section#timeline:before {  /* the crossing line */
   content: '';
   display: block;
   position: absolute;
-  left: 50%;
+  left: 49.75%;
   top: 0;
-  margin: 0 0 0 -1px;
-  width: 4px;
-  height: 100%;
-  background: #123C69;
+  margin: 0 0 0px -1px;
+  width: 6px;
+  height: 95%;
+  background: #2c3e50;
 }
 section#timeline article {
   width: 100%;
@@ -63,7 +63,7 @@ section#timeline article div.inner {
 section#timeline article div.inner span.date {  /* the texts in middle circle */
   display: block;
   width: 60px;
-  height: 50px;
+  height: 60px;
   padding: 5px 0;
   position: absolute;
   top: 0;
@@ -94,7 +94,7 @@ section#timeline article div.inner span.date span.year {
 section#timeline article div.inner h2 {
   padding: 15px;
   margin: 0;
-  color: #fff;
+  color: white;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -126,18 +126,18 @@ section#timeline article:nth-child(2n+2) div.inner h2:after {
 }
 
 
-/*Color of the timeline tags*/
+/*Color of the timeline tags  #18bc9c  */
 section#timeline article:nth-child(odd) div.inner h2 {
-  background: #18bc9c;
+  background: #2c3e50;
 }
 section#timeline article:nth-child(odd) div.inner h2:after {
-  background: #18bc9c;
+  background: #2c3e50;
 }
 section#timeline article:nth-child(even) div.inner h2 {
-  background: #18bc9c;
+  background: #2c3e50;
 }
 section#timeline article:nth-child(even) div.inner h2:after {
-  background: #18bc9c;
+  background: #2c3e50;
 }
 
 /* rgba(255,255,255,0.5); 
