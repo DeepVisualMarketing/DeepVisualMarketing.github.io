@@ -37,7 +37,7 @@ section#timeline:before {  /* the crossing line */
   content: '';
   display: block;
   position: absolute;
-  left: 49.75%;
+  left: 50.00%;
   top: 33px;
   margin: 0 0 0px -1px;
   width: 6px;
@@ -62,15 +62,15 @@ section#timeline article div.inner {
 }
 section#timeline article div.inner span.date {  /* the texts in middle circle */
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   padding: 5px 0;
   position: absolute;
   top: 0;
   left: 50%;
-  margin: 0 0 0 -32px;
+  margin: 0 0 0 -38px;
   border-radius: 100%;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 900;
   text-transform: uppercase;
   background: #25303B;
@@ -89,14 +89,14 @@ section#timeline article div.inner span.date span.month {
   font-size: 18px;
 }
 section#timeline article div.inner span.date span.year {
-  font-size: 10px;
+  font-size: 22px;
+  padding-top: 6px;
 }
 section#timeline article div.inner h2 {
   padding: 15px;
   margin: 0;
   color: white;
   font-size: 20px;
-  text-transform: uppercase;
   letter-spacing: -1px;
   border-radius: 6px 6px 0 0;
   position: relative;
@@ -113,7 +113,7 @@ section#timeline article div.inner h2:after {
 section#timeline article div.inner p {
   padding: 15px;
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
   background: #fff;
   color: black;
   border-radius: 0 0 6px 6px;
@@ -140,34 +140,3 @@ section#timeline article:nth-child(even) div.inner h2:after {
   background: #2c3e50;
 }
 
-/* rgba(255,255,255,0.5); 
-section#timeline article:nth-child(1) div.inner h2 {
-  background: #e74c3c;
-}
-section#timeline article:nth-child(1) div.inner h2:after {
-  background: #e74c3c;
-}
-section#timeline article:nth-child(2) div.inner h2 {
-  background: #2ecc71;
-}
-section#timeline article:nth-child(2) div.inner h2:after {
-  background: #2ecc71;
-}
-section#timeline article:nth-child(3) div.inner h2 {
-  background: #e67e22;
-}
-section#timeline article:nth-child(3) div.inner h2:after {
-  background: #e67e22;
-}
-section#timeline article:nth-child(4) div.inner h2 {
-  background: #1abc9c;
-}
-section#timeline article:nth-child(4) div.inner h2:after {
-  background: #1abc9c;
-}
-section#timeline article:nth-child(5) div.inner h2 {
-  background: #9b59b6;
-}
-section#timeline article:nth-child(5) div.inner h2:after {
-  background: #9b59b6;
-}*/
