@@ -24,8 +24,30 @@
   <link rel="stylesheet" type="text/css" href="./Project 1_files/hjmstyle.css">
   <link href="./Project 1_files/css" rel="stylesheet" type="text/css">
   <link href="./Project 1_files/css(1)" rel="stylesheet" type="text/css">
+   
+   <!-- Treeview parts -->
+	<link rel="stylesheet" href="./Project 1_files/treeview/css/demo.css" type="text/css">
+	<link rel="stylesheet" href="./Project 1_files/treeview/css/zTreeStyle/zTreeStyle.css" type="text/css">
+	<script type="text/javascript" src="./Project 1_files/treeview/js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="./Project 1_files/treeview/js/jquery.ztree.core.js"></script>
+	
+  <SCRIPT type="text/javascript">
+		<!--
+		var setting = {	};
 
+		$.getJSON("./Project 1_files/treeview/car.json", function (data) {
+			$.fn.zTree.init($("#jsonTree"), setting, data);
+		});
 
+		//-->
+  </SCRIPT>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
   <style id="tsbrowser_video_independent_player_style" type="text/css">
     [tsbrowser_force_max_size] {
       width: 100% !important;
@@ -169,17 +191,16 @@
         <p><b>Image data</b></p>
         <p class="ex1">
           <withbull>
-            <li>1,430,096 images from 897 UK market car models over the last two decades. </li>
+            <li>1,430,096 images from 897 UK market car models over the last 19 years. </li>
           </withbull>
         </p>
         <a style="text-decoration:underline;"
           href="https://www.dropbox.com/s/ohfv6eq67x1z7gm/resized_DVM_v2.zip?dl=0">Download: Car images
-          (13.6 GB)</a>
-		  </br>
+          (ZIP)</a>
 		  
 		  <a style="text-decoration:underline;"
-          href="https://www.dropbox.com/s/xmyz2na20f8lth8/Confirmed_fronts.zip?dl=0">Download: Quality checked front-view images
-          (730 MB)</a>
+          href="https://www.dropbox.com/s/ohfv6eq67x1z7gm/resized_DVM_v2.zip?dl=0">Download: Manually checked front images
+          (ZIP)</a>
 
         <p></p>
         <p><b>Sales and specification data</b></p>
@@ -263,81 +284,12 @@
 	          <div class="col-lg-12 text-center">
           <h2>Overview</h2>
           <hr class="star-primary">
-		 
-		<div id="container" style="height: 800pt"></div>
-		<script type="text/javascript" src="./Project 1_files/treeview/echarts.min.js"></script>
-		 <script type="text/javascript" src="./Project 1_files/treeview/jquery-3.6.0.min.js"></script> 
-        <script type="text/javascript">
-var dom = document.getElementById("container");
-var myChart = echarts.init(dom);
-var app = {};
-
-var option;
-
-$.getJSON('./Project 1_files/treeview/car.json', function (data) {
-
-
-	if (!data.children){
-		return;
-	}
-	
-    data.children.forEach(function (datum, index) {
-        index % 1 === 0 && (datum.collapsed = true);
-    });
-	    data.children.forEach(function (datum, index) {
-        index % 11 === 0 && (datum.collapsed = false);
-    });
-	
-    myChart.setOption(option = {
-        tooltip: {
-            trigger: 'item',
-            triggerOn: 'mousemove'
-        },
-        series: [
-            {
-                type: 'tree',
-
-                data: [data],
-
-                top: '1%',
-                left: '7%',
-                bottom: '1%',
-                right: '20%',
-
-                symbolSize: 10,
-
-                label: {
-                    position: 'left',
-                    verticalAlign: 'middle',
-                    align: 'right',
-                    fontSize: 13
-                },
-
-                leaves: {
-                    label: {
-                        position: 'right',
-                        verticalAlign: 'middle',
-                        align: 'left'
-                    }
-                },
-
-                emphasis: {
-                    focus: 'descendant'
-                },
-
-                expandAndCollapse: true,
-                animationDuration: 550,
-                animationDurationUpdate: 750
-            }
-        ]
-    });
-});
-
-if (option && typeof option === 'object') {
-    myChart.setOption(option);
-}
-
-        </script>
+		  
+		  		<div class="content_wrap">
+		 <div class="zTreeDemoBackground">
+		  <ul id="jsonTree" class="ztree"></ul>
+		 </div>
+		</div>
 		
         </div>
 		
@@ -419,25 +371,24 @@ if (option && typeof option === 'object') {
 
 
 
+  
+  <!-- Bootstrap Core JavaScript -->
+  <script src="./Project 1_files/bootstrap.min.js"></script>
 
-  <!-- Bootstrap Core JavaScript 
-  <script src="./Project 1_files/bootstrap.min.js"></script> -->
-
-  <!-- Plugin JavaScript 
-  <script src="./Project 1_files/jquery.easing.min.js"></script> 
+  <!-- Plugin JavaScript -->
+  <script src="./Project 1_files/jquery.easing.min.js"></script>
   <script src="./Project 1_files/classie.js"></script>
-  <script src="./Project 1_files/cbpAnimatedHeader.js"></script> -->
+  <script src="./Project 1_files/cbpAnimatedHeader.js"></script>
 
-  <!-- Contact Form JavaScript 
-  <script src="./Project 1_files/jqBootstrapValidation.js"></script> 
-  <script src="./Project 1_files/contact_me_static.js"></script>-->
+  <!-- Contact Form JavaScript -->
+  <script src="./Project 1_files/jqBootstrapValidation.js"></script>
+
+  <script src="./Project 1_files/contact_me_static.js"></script>
 
 
-  <!-- Custom Theme JavaScript 
-  <script src="./Project 1_files/freelancer.js"></script> -->
-  
-  
-  <!-- <script src="./Project 1_files/treeview.js"></script> -->
+  <!-- Custom Theme JavaScript -->
+  <script src="./Project 1_files/freelancer.js"></script>
+  <script src="./Project 1_files/treeview.js"></script>
 </body>
 
 </html>

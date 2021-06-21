@@ -9,24 +9,10 @@
     <body style="height: 100%; margin: 0">
         <div id="container" style="height: 100%"></div>
 
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-        <!-- Uncomment this line if you want to dataTool extension
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
-        -->
-        <!-- Uncomment this line if you want to use gl extension
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
-        -->
-        <!-- Uncomment this line if you want to echarts-stat extension
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
-        -->
-        <!-- Uncomment this line if you want to use map
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5/map/js/china.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5/map/js/world.js"></script>
-        -->
-        <!-- Uncomment these two lines if you want to use bmap extension
-        <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=<Your Key Here>"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
-        -->
+
+        <script type="text/javascript" src="./Project 1_files/treeview/echarts.min.js"></script>
+		<script type="text/javascript" src="./Project 1_files/treeview/jquery-3.6.0.min.js"></script>
+
 
         <script type="text/javascript">
 var dom = document.getElementById("container");
@@ -34,17 +20,21 @@ var myChart = echarts.init(dom);
 var app = {};
 
 var option;
-var ROOT_PATH = 'https://cdn.jsdelivr.net/gh/apache/echarts-website@asf-site/examples';
+
+$.getJSON('./Project 1_files/treeview/car.json', function (data) {
 
 
-myChart.showLoading();
-$.get(ROOT_PATH + '/data/asset/data/flare.json', function (data) {
-    myChart.hideLoading();
-
+	if (!data.children){
+		return;
+	}
+	
     data.children.forEach(function (datum, index) {
-        index % 2 === 0 && (datum.collapsed = true);
+        index % 1 === 0 && (datum.collapsed = true);
     });
-
+	    data.children.forEach(function (datum, index) {
+        index % 11 === 0 && (datum.collapsed = false);
+    });
+	
     myChart.setOption(option = {
         tooltip: {
             trigger: 'item',
@@ -60,14 +50,13 @@ $.get(ROOT_PATH + '/data/asset/data/flare.json', function (data) {
                 left: '7%',
                 bottom: '1%',
                 right: '20%',
-
-                symbolSize: 7,
+                symbolSize: 10,
 
                 label: {
                     position: 'left',
                     verticalAlign: 'middle',
                     align: 'right',
-                    fontSize: 9
+                    fontSize: 13
                 },
 
                 leaves: {
