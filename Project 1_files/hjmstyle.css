@@ -126,7 +126,7 @@ section#timeline article:nth-child(2n+2) div.inner h2:after {
 }
 
 
-/*Color of the timeline tags  #18bc9c  */
+/*Color of the timeline tags  #18bc9c  18bc9c*/
 section#timeline article:nth-child(odd) div.inner h2 {
   background: #2c3e50;
 }

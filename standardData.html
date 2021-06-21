@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<TITLE> ZTREE DEMO - Standard Data </TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="./Project 1_files/treeview/css/demo.css" type="text/css">
+	<link rel="stylesheet" href="./Project 1_files/treeview/css/zTreeStyle/zTreeStyle.css" type="text/css">
+	<script type="text/javascript" src="./Project 1_files/treeview/js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="./Project 1_files/treeview/js/jquery.ztree.core.js"></script>
+	<SCRIPT type="text/javascript">
+		<!--
+		var setting = {	};
+
+		$.getJSON("./Project 1_files/treeview/car.json", function (data) {
+			$.fn.zTree.init($("#jsonTree"), setting, data);
+		});
+
+		//-->
+	</SCRIPT>
+</HEAD>
+
+<BODY>
+<h1>测试 JSON 数据</h1>
+<h6>[ 文件路径: core/standardData.html ]</h6>
+<div class="content_wrap">
+	<div class="zTreeDemoBackground left">
+		<ul id="jsonTree" class="ztree"></ul>
+	</div>
+	<div class="right">
+			测试页面
+	</div>
+</div>
+</BODY>
+</HTML>

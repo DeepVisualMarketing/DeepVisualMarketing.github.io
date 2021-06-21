@@ -22,10 +22,25 @@
   <!-- Custom Fonts -->
   <link rel="stylesheet" href="./Project 1_files/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="./Project 1_files/hjmstyle.css">
-  <link rel="stylesheet" type="text/css" href="./Project 1_files/treeview.css">
   <link href="./Project 1_files/css" rel="stylesheet" type="text/css">
   <link href="./Project 1_files/css(1)" rel="stylesheet" type="text/css">
+   
+   <!-- Treeview parts -->
+	<link rel="stylesheet" href="./Project 1_files/treeview/css/demo.css" type="text/css">
+	<link rel="stylesheet" href="./Project 1_files/treeview/css/zTreeStyle/zTreeStyle.css" type="text/css">
+	<script type="text/javascript" src="./Project 1_files/treeview/js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="./Project 1_files/treeview/js/jquery.ztree.core.js"></script>
+	
+  <SCRIPT type="text/javascript">
+		<!--
+		var setting = {	};
 
+		$.getJSON("./Project 1_files/treeview/car.json", function (data) {
+			$.fn.zTree.init($("#jsonTree"), setting, data);
+		});
+
+		//-->
+  </SCRIPT>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -71,10 +86,6 @@
       opacity: 0;
     }
   </style>
-    <!-- jQuery Version 1.11.0 -->
-	<script src="./Project 1_files/jquery-1.11.0.js"></script>
-
-
 </head>
 
 <body id="page-top" class="index">
@@ -164,33 +175,9 @@
         </div>
       </div>
 
-      <!--
-            <div class="row">
-                <div class="col-lg-12 text-center">
-				     <h2>DATASET</h2>
-                    <hr class="star-primary">
-					
-                    <h3 style="padding-top:40px;">Image Data</h3>
-                    
-					<img class="img-responsive" style="display: inline;" src="./Project 1_files/car_images.png" width="950" height="300" alt="">
-                </div>
-            </div>
-            <div class="row" style="padding-left: 10%;font-size:18px;">
-                <div id="image_part_content">
-					 <p class="ex1">
-						  <withbull>
-							<li>1,430,096 images from the the UK market</li>
-							<li>From eight observation angles.  </li>
-							<li>Covers 897 car models over the last 19 years.</li>
-							<li>Number plates have been obscured. </li>
-						  </withbull>
-						</p>
-				<a style="text-decoration:underline;" href="https://www.dropbox.com/s/x82cvp5kexra339/resized_DVM.zip?dl=0">Download Link: Full car images (zip
-                format)</a>
-				</div>
 
-            </div>
-		-->
+
+
       <div class="row" style="padding-top:40px;">
 
         <div class="col-lg-12 text-center">
@@ -207,7 +194,7 @@
           </withbull>
         </p>
         <a style="text-decoration:underline;"
-          href="https://www.dropbox.com/s/x82cvp5kexra339/resized_DVM.zip?dl=0">Download: Car images
+          href="https://www.dropbox.com/s/ohfv6eq67x1z7gm/resized_DVM_v2.zip?dl=0">Download: Car images
           (ZIP)</a>
 
         <p></p>
@@ -224,7 +211,7 @@
           </withbull>
         </p>
         <a style="text-decoration:underline;"
-          href="https://www.dropbox.com/sh/g96sux4wrcst1b0/AACdu8QKwskrYXbh5KlIIR1va?dl=0">Download: Sales and
+          href="https://www.dropbox.com/sh/i46s6nf2ybl4f9z/AAD2fbr7UOWBYC2nX5Cdhkmia?dl=0">Download: Sales and
           specification tables
           (CSV)</a>
 
@@ -232,9 +219,6 @@
       </div>
     </div>
   </section>
-
-
-
 
 
 
@@ -289,39 +273,26 @@
     </div>
   </section>
 
-
-
-	<!-- <section id="survey_study">
-	<div class="container" >
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>Survey Study</h2>
-				<hr class="star-primary">
-				<img class="img-responsive" style="display: inline;" src="./Project 1_files/bipartite_words5.jpg" width="950">
-			</div>
-			
-			
+  <section id="partI">
+    <div class="container">
+      <div class="row">
+	          <div class="col-lg-12 text-center">
+          <h2>Overview</h2>
+          <hr class="star-primary">
+		  <img class="img-responsive" src="./Project 1_files/overview_cp.png">
+		  		<div class="content_wrap">
+		 <div class="zTreeDemoBackground">
+		  <ul id="jsonTree" class="ztree"></ul>
+		 </div>
 		</div>
-		<div class="row">
-			
-		 <p>            </p>
-		<p style="text-align:justify">
-			   We are very thankful to the participants who have provided valuable feedback to our surveys. 
-			  When building our dataset, we have carried out a small questionnaire (which involves 49 researchers in computer science and business
-				studies), to understand the common issues faced by researchers when dealing with the shared data. 
-				As the above figure shows, we found the common issues mentioned by both communities can be broadly grouped into three 
-				categories: <i>coverage</i>, <i>accessibility</i> and <i>quality</i>. 
-				Identifying these common issues have greatly helped us in database design, data collection, preparation and release.
+		
+        </div>
+		
+		
 
-		</p>
-
-		</div>
+	   </div>
 	</div>
-	</section> -->
-
-
-
-
+ </section>
 
 
   <!-- Footer -->
@@ -395,8 +366,7 @@
 
 
 
-
-
+  
   <!-- Bootstrap Core JavaScript -->
   <script src="./Project 1_files/bootstrap.min.js"></script>
 
