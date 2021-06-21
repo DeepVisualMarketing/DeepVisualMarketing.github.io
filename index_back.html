@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    DVM Car Dataset: A Large-Scale Dataset for Automotive Applications
+  </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="DVM Car Dataset: A Large-Scale Dataset for Automotive Applications">
+  <meta name="keywords" content="your keywords, separated by commas">
+
+  <meta name="author" content="LastName FirstName">
+
+  <link rel="canonical" href="">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://jeromelachaud.com/feed.xml">
+
+  <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ 1542 -->
+  <link rel="stylesheet" href="./Project 1_files/style.css">
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="./Project 1_files/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./Project 1_files/hjmstyle.css">
+  <link href="./Project 1_files/css" rel="stylesheet" type="text/css">
+  <link href="./Project 1_files/css(1)" rel="stylesheet" type="text/css">
+
+
+  <style id="tsbrowser_video_independent_player_style" type="text/css">
+    [tsbrowser_force_max_size] {
+      width: 100% !important;
+      height: 100% !important;
+      left: 0px !important;
+      top: 0px !important;
+      margin: 0px !important;
+      padding: 0px !important;
+      transform: none !important;
+    }
+
+    [tsbrowser_force_fixed] {
+      position: fixed !important;
+      z-index: 9999 !important;
+      background: black !important;
+    }
+
+    [tsbrowser_force_hidden] {
+      opacity: 0 !important;
+      z-index: 0 !important;
+    }
+
+    [tsbrowser_hide_scrollbar] {
+      overflow: hidden !important;
+    }
+
+    [tsbrowser_display_none] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+    }
+
+    [tsbrowser_force_show] {
+      display: black !important;
+      visibility: visible !important;
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body id="page-top" class="index">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#page-top">DVM-Car</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden active">
+            <a href="#page-top"></a>
+          </li>
+          <li class="page-scroll">
+            <a href="#partI">Download</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#history">Timeline</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#contact_info">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <img class="img-responsive" src="./Project 1_files/audi_2019_v2.png">
+          <!--alt="profile-pic" -->
+          <div class="intro-text">
+            <span class="name">DVM-Car</span>
+            <h2>A Large-Scale Dataset for Automotive Applications</h2>
+
+            <!-- <hr class="star-light">
+            <span class="skills">
+              <p style="text-align:justify"> We are building a large-scale automotive dataset named Deep Visual Marketing
+                Car (in short DVM-Car) dataset.
+                DVM-Car dataset contains images of numerous car models and the corresponding car specification and sales
+                figures over more than 10 years period,
+                with the hope to better support and serve the needs of researchers in various fields. It primarily
+                constitutes two sections:
+                the image section and the data table section. Before using this dataset, please read the instruction:
+                <a style="color: white;text-decoration:underline;" href="site-assets/DVM_instrument.pdf"> [DVM-Car
+                  Instruction]</a>
+              </p>
+              </p>
+            </span> -->
+
+            <hr class="star-light">
+            <span class="skills">
+              <p style="text-align:justify"> This publicly available dataset aims to facilitate business related research and applications in automotive industry such as car appearance design, consumer analytics and sales modelling. 
+              </p>
+              </p>
+            </span>
+            
+          </div>
+        </div>
+      </div>
+	  <img class="img-responsive" src="./Project 1_files/overview_cp.png">
+    </div>
+	
+  </header>
+
+
+  <!-- partI Grid Section -->
+  <section id="partI">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Download</h2>
+          <hr class="star-primary">
+        </div>
+      </div>
+
+
+
+
+      <div class="row" style="padding-top:40px;">
+
+        <div class="col-lg-12 text-center">
+          <img class="img-responsive" style="display: inline;" src="./Project 1_files/car_attr.jpg" width="850px">
+        </div>
+
+      </div>
+      <div class="row" style="padding-left: 10%; font-size:18px;">
+
+        <p><b>Image data</b></p>
+        <p class="ex1">
+          <withbull>
+            <li>1,430,096 images from 897 UK market car models over the last two decades. </li>
+          </withbull>
+        </p>
+        <a style="text-decoration:underline;"
+          href="https://www.dropbox.com/s/ohfv6eq67x1z7gm/resized_DVM_v2.zip?dl=0">Download: Car images
+          (13.6 GB)</a>
+		  </br>
+		  
+		  <a style="text-decoration:underline;"
+          href="https://www.dropbox.com/s/xmyz2na20f8lth8/Confirmed_fronts.zip?dl=0">Download: Quality checked front-view images
+          (730 MB)</a>
+
+        <p></p>
+        <p><b>Sales and specification data</b></p>
+        <p class="ex1">
+          <withbull>
+            <li><b>Basic table</b>: car attributes such as model name, model ID and brand name.</li>
+            <li><b>Sales table</b>: ten years car sales data in UK/GB.</li>
+            <li><b>Price table</b>: entry-level (i.e. the cheapest trim price) new car prices across years.</li>
+            <li><b>Trim table</b>: trim attributes like the selling price (trim level), engine type and engine
+              size.</li>
+            <li><b> Ad table</b>: more than 0.25 million used car advertisements. </li>
+            <li> <b>Image table</b>: car images attributes like colour and viewpoint.</li>
+          </withbull>
+        </p>
+        <a style="text-decoration:underline;"
+          href="https://www.dropbox.com/sh/i46s6nf2ybl4f9z/AAD2fbr7UOWBYC2nX5Cdhkmia?dl=0">Download: Sales and
+          specification tables
+          (CSV)</a>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact Section -->
+  <section class="success" id="history">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Timeline</h2>
+          <hr class="star-light">
+        </div>
+      </div>
+      <div class="row">
+        <section id="timeline">
+          <article>
+            <div class="inner">
+              <span class="date">
+                <span class="year">2018</span>
+              </span>
+              <h2>June 2018</h2>
+              <p>A survey study is conducted with business researchers and computer scientists to explore the most common issues which they face when using the existing datasets. 
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <div class="inner">
+              <span class="date">
+                <span class="year">2019</span>
+              </span>
+              <h2>February 2019</h2>
+              <p>DVM-CAR 1.0 is released! 
+              </p>
+            </div>
+          </article>
+
+
+          <article>
+            <div class="inner">
+              <span class="date">
+                <span class="year">2020</span>
+                <!-- <span class="month">May</span> -->
+              </span>
+              <h2>May 2021</h2>
+              <p>DVM-CAR 2.0 is released! 
+              </p>
+            </div>
+          </article>
+
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="nodes_tree">
+    <div class="container">
+      <div class="row">
+	          <div class="col-lg-12 text-center">
+          <h2>Overview</h2>
+          <hr class="star-primary">
+		 
+		<div id="container" style="height: 800pt"></div>
+		<script type="text/javascript" src="./Project 1_files/treeview/echarts.min.js"></script>
+		 <script type="text/javascript" src="./Project 1_files/treeview/jquery-3.6.0.min.js"></script> 
+        <script type="text/javascript">
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+
+var option;
+
+$.getJSON('./Project 1_files/treeview/car.json', function (data) {
+
+
+	if (!data.children){
+		return;
+	}
+	
+    data.children.forEach(function (datum, index) {
+        index % 1 === 0 && (datum.collapsed = true);
+    });
+	    data.children.forEach(function (datum, index) {
+        index % 11 === 0 && (datum.collapsed = false);
+    });
+	
+    myChart.setOption(option = {
+        tooltip: {
+            trigger: 'item',
+            triggerOn: 'mousemove'
+        },
+        series: [
+            {
+                type: 'tree',
+
+                data: [data],
+
+                top: '1%',
+                left: '7%',
+                bottom: '1%',
+                right: '20%',
+
+                symbolSize: 10,
+
+                label: {
+                    position: 'left',
+                    verticalAlign: 'middle',
+                    align: 'right',
+                    fontSize: 13
+                },
+
+                leaves: {
+                    label: {
+                        position: 'right',
+                        verticalAlign: 'middle',
+                        align: 'left'
+                    }
+                },
+
+                emphasis: {
+                    focus: 'descendant'
+                },
+
+                expandAndCollapse: true,
+                animationDuration: 550,
+                animationDurationUpdate: 750
+            }
+        ]
+    });
+});
+
+if (option && typeof option === 'object') {
+    myChart.setOption(option);
+}
+
+        </script>
+		
+        </div>
+		
+		
+
+	   </div>
+	</div>
+ </section>
+ 
+
+
+  <!-- Footer -->
+  <footer class="text-center" id="contact_info" style="margin-top:0px;">
+    <div class="footer-above">
+      <div class="row" style="margin-top:0px; width: 75%;display: inline;">
+        <div class="footer-col col-md-4">
+          <h3 style="margin-left: 50px;">About Us</h3>
+          <ul style="list-style-type:none;text-align:ceter;">
+            <li>
+              <a style="font-size:20px;color:white;" href="https://www.researchgate.net/profile/Jingmin-Huang-2">Jingmin
+                Huang</a>
+            </li>
+            <li>
+              <a style="font-size:20px;color:white;" href="https://boweichen.github.io/">Bowei Chen<p></p> </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col col-md-4">
+          <h3>Email</h3>
+          <ul style="list-style-type:none">
+            <li>
+              <a style="font-size:20px;color:white;"
+                href="mailto:2421107h@student.gla.ac.uk ">2421107h@student.gla.ac.uk </a>
+            </li>
+            <li>
+              <a style="font-size:20px;color:white;" href="mailto:Bowei.Chen@glasgow.ac.uk">Bowei.Chen@glasgow.ac.uk <p>
+                </p> </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col col-md-4">
+          <h3>Location</h3>
+          <p style="color:white; margin-top:30px;">
+            University of Glasgow<br>
+            United Kingdom
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="footer-below">
+      <div class="row">
+        <img style="width:190px; border-width:2" src="./Project 1_files/uog.png" />
+        <img style="width:270px; border-width:2" src="./Project 1_files/usc.png" />
+        <img style="width:260px; border-width:2" src="./Project 1_files/uol.png" />
+      </div>
+
+      <div class="container" style="padding-top:15px;">
+        <div class="row">
+          <img alt="Creative Commons License" style="border-width:0"
+            src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+        </div>
+        <a rel="license" style="color:#2c3e50" href="http://creativecommons.org/licenses/by/4.0/">This work is licensed
+          under a Creative Commons Attribution 4.0 International License</a>.
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-top page-scroll visible-xs visible-sm">
+    <a class="btn btn-primary" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+
+
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="./Project 1_files/bootstrap.min.js"></script> 
+
+  <!-- Plugin JavaScript -->
+  <script src="./Project 1_files/jquery.easing.min.js"></script> 
+  <script src="./Project 1_files/classie.js"></script>
+  <script src="./Project 1_files/cbpAnimatedHeader.js"></script> 
+
+  <!-- Contact Form JavaScript -->
+  <script src="./Project 1_files/jqBootstrapValidation.js"></script> 
+  <script src="./Project 1_files/contact_me_static.js"></script>
+
+
+  <!-- Custom Theme JavaScript -->
+  <script src="./Project 1_files/freelancer.js"></script> 
+  
+  
+  <!-- <script src="./Project 1_files/treeview.js"></script> -->
+</body>
+
+</html>
