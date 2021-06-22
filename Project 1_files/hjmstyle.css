@@ -53,12 +53,14 @@ section#timeline article:after {
   content: '';
   display: block;
   clear: both;
+  
 }
 section#timeline article div.inner {
   width: 40%;
   float: left;
   margin: 5px 0 0 0;
   border-radius: 6px;
+  
 }
 section#timeline article div.inner span.date {  /* the texts in middle circle */
   display: block;
