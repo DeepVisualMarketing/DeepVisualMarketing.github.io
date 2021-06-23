@@ -91,7 +91,7 @@
             <a href="#partI">Download</a>
           </li>
 		  <li class="page-scroll">
-            <a href="#DataStructure">Data-Structure</a>
+            <a href="#DataStructure">Structure</a>
           </li>
 		  <li class="page-scroll">
             <a href="#history">Timeline</a>
@@ -125,16 +125,16 @@
                 figures over more than 10 years period,
                 with the hope to better support and serve the needs of researchers in various fields. It primarily
                 constitutes two sections:
-                the image section and the data table section. Before using this dataset, please read the instruction:
-                <a style="color: white;text-decoration:underline;" href="site-assets/DVM_instrument.pdf"> [DVM-Car
-                  Instruction]</a>
+                the image section and the data table section. 
               </p>
               </p>
-            </span> -->
+            </span> text-decoration:underline; -->
 
             
             <span class="skills">
-              <p style="text-align:justify; padding-bottom: 20pt;"> This publicly available dataset aims to facilitate business related research and applications in automotive industry such as car appearance design, consumer analytics and sales modelling. 
+              <p style="text-align:justify; padding-bottom: 20pt;"> This publicly available dataset aims to facilitate business related research and 
+			  applications in automotive industry such as car appearance design, consumer analytics and sales modelling. To use, please go through the user manual
+                <a style="color: #2c3e50;" href="site-assets/DVM_user_manual.pdf"> [PDF]</a>. 
               </p>
               </p>
             </span>
@@ -155,14 +155,14 @@
           <h2 >Download</h2>
 		  
           <hr class="star-primary">
-		  <h3 style="padding-bottom: 10pt; color: black;">Part I. Sales and specification data</h3>
+		  <h3 style="padding-bottom: 10pt; color: black;">Part I. Sale and Specification Data</h3>
         </div>
       </div>
 
 
 
 		<div class="col-lg-12 text-center">
-		  <img class="img-responsive" style="display: inline; padding-bottom: 10pt" src="./Project 1_files/car_attr.jpg" width="850px">
+		  <img class="img-responsive" style="display: inline; padding-bottom: 10pt" src="./Project 1_files/car_attr.png" width="850px">
         </div>
 		<div class="row" style="padding-left: 15%; font-size:18px;">
 			
@@ -194,7 +194,7 @@
     <div class="container">
 
 		  <div class="col-lg-12 text-center">
-		<h3 style="padding-bottom: 10pt; color: white;">Part II. Background removed images</h3>    	
+		<h3 style="padding-bottom: 10pt; color: white;">Part II. Image Data</h3>    	
 		  <img class="img-responsive" style="display: inline; padding-bottom: 20pt" src="./Project 1_files/overview_cp.png" width="850px">
         </div>
 
@@ -230,7 +230,7 @@
     <div class="container">
       <div class="row">
 	          <div class="col-lg-12 text-center">
-          <h2>Data Structure</h2>
+          <h2>Structure</h2>
           <hr class="star-primary">
 		 
 		<div id="container" style="height: 800pt"></div>
@@ -254,7 +254,7 @@ $.getJSON('./Project 1_files/treeview/car.json', function (data) {
         index % 1 === 0 && (datum.collapsed = true);
     });
 	    data.children.forEach(function (datum, index) {
-        index % 11 === 0 && (datum.collapsed = false);
+        index % 3 === 0 && (datum.collapsed = false);
     });
 	
     myChart.setOption(option = {
@@ -337,18 +337,28 @@ if (option && typeof option === 'object') {
               </p>
             </div>
           </article>
+		  
+		  <article>
+            <div class="inner">
+              <span class="date">
+                <span class="year">2018</span>
+              </span>
+              <h2>September 2018</h2>
+              <p>Data collection and cleaning works start. Image and non-visual data from various sources are collected and integrated. More than six million raw images are gathered during this phase.   
+              </p>
+            </div>
+          </article>
 
           <article>
             <div class="inner">
               <span class="date">
                 <span class="year">2019</span>
               </span>
-              <h2>February 2019</h2>
-              <p>DVM-CAR 1.0 is released! 
+              <h2>August 2019</h2>
+              <p>DVM-CAR 1.0 is released via the Git website. 
               </p>
             </div>
           </article>
-
 
           <article>
             <div class="inner">
@@ -357,7 +367,7 @@ if (option && typeof option === 'object') {
                 <!-- <span class="month">May</span> -->
               </span>
               <h2>May 2021</h2>
-              <p>DVM-CAR 2.0 is released! 
+              <p>DVM-CAR 2.0 is released! Now all the images are resized to 300x300 resolutions; segment results are no longer provided directly; update the image data to 2019 while the non-visual data is updated to 2020.
               </p>
             </div>
           </article>
